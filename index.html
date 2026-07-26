@@ -6,9 +6,29 @@
     <title>Document</title>
   </head>
   <body>
-    <img
-      src="https://drive.google.com/thumbnail?id=1mVt9CdiJMKwgt-KQ6oBM3HP2O0BCXgfl"
-      alt="Description"
-    />
+    <!-- <ion-icon name="alarm-outline"></ion-icon> -->
+
+    <picture>
+      <source media="(max-width: 480px)" srcset="./mobile-dog.webp" />
+      <source
+        media="(max-width: 720px)"
+        srcset="
+          https://drive.google.com/thumbnail?id=1GqnlqVuQXp6Nq5ViWNiKdbdx9XFACFBG&sz=w150
+        "
+      />
+      <img
+        src="https://drive.google.com/thumbnail?id=1GqnlqVuQXp6Nq5ViWNiKdbdx9XFACFBG&sz=w300"
+        alt="dog in the couch"
+      />
+    </picture>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
