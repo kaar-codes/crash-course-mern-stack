@@ -128,3 +128,12 @@ for (const element of [123, 45, 332, 334]) {
   console.log(element);
 }
 */
+
+//  ~~~~~~~~~~~~~~  Arrays and Objects
+const scores = [3, [4, 1], "Logesh", true, 6];
+const object = {
+  age: 12,
+  city: "Pondy",
+};
+
+// console.log(scores.at(-2));
