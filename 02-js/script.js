@@ -1,3 +1,4 @@
+/*
 // console.log("Test Log Action takes place!");
 
 //  ~~~~~~~~~~~~~~ Logging
@@ -55,3 +56,75 @@ console.log("Logesh" > 30000);
 
 let f;
 console.log(f);
+
+
+//  ~~~~~~~~~~~~~~  Operators in JS
+
+// Arithmetic
+// Logical
+// Assignment
+// Comparision
+// Bitwise
+
+console.log(12 + 4 * 3 + 2 / 2); // 25
+console.log(12 - 3 * 2); // 6
+console.log(12 % 3);
+
+// AND OR NOT
+console.log(false && false);
+console.log(false || true);
+console.log(!false);
+
+let x = 100;
+x += 10; // x = x + 10;
+++x;
+console.log(++x);
+console.log(x);
+
+console.log(100 > 3000);
+console.log(100 >= 100);
+
+console.log(3 & 5);
+console.log(3 | 5);
+console.log(3 ^ 5);
+
+console.log(!true);
+console.log(!false);
+
+//  ~~~~~~~~~~~~~~  Decision Statements
+// "if" "else if" "else"
+const age = prompt("Enter your age please");
+if (age > 18) console.log("Age criteria got satisfied");
+else if (age > 15) console.log("wait for " + (18 - age) + " years.");
+else console.log("Age is not met with the criteria");
+
+//  ~~~~~~~~~~~~~~  Looping Statements
+// for Loop
+for (let i = 0; i < 10; i++) {
+  console.log("Hey There");
+}
+
+// for of
+const obj = {
+  age: 28,
+  isEligible: true,
+  firstName: "Logesh",
+  lastName: "B",
+  city: "Pondicherry",
+};
+
+const obj2 = obj;
+
+obj2.city = "Pondy";
+
+console.log(obj2, obj);
+
+// [28, true, "Logesh", "B"];
+for (const element of Object.keys(obj)) {
+  console.log(element);
+}
+
+for (const element of [123, 45, 332, 334]) {
+  console.log(element);
+}
+*/
